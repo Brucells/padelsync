@@ -4,7 +4,6 @@ import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts"
 import {
     Card,
     CardContent,
-    CardDescription,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
@@ -19,7 +18,7 @@ export const description = "A radar chart with a grid filled"
 
 const chartData = [
     { shot: "Service", desktop: 89 },
-    { shot: "Smash", desktop: 24 },
+    { shot: "All", desktop: 71 },
     { shot: "Volley", desktop: 48 },
     { shot: "Lob", desktop: 66 },
     { shot: "Revers", desktop: 72 },
@@ -33,11 +32,11 @@ const chartConfig = {
     },
 } satisfies ChartConfig
 
-export function FirstChart() {
+export function BasicAccuracyChart() {
     return (
-        <Card className="bg-gradient-to-b from-accent mb-2">
+        <Card className="bg-gradient-to-b from-accent mb-3">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">Précision</CardTitle>
+                <CardTitle className="text-sm font-medium">Précision des coups de base</CardTitle>
                 <Crosshair strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
 
@@ -61,10 +60,6 @@ export function FirstChart() {
                     </RadarChart>
                 </ChartContainer>
             </CardContent>
-            <CardDescription className="flex justify-center mb-2">
-                Précision de vos coups en pourcentage de réussite
-            </CardDescription>
-
         </Card>
     )
 }
