@@ -1,4 +1,4 @@
-import { Cctv, ChartNetwork, ChartSpline, Dribbble, Home } from "lucide-react";
+import { Cctv, ChartNetwork, ChartSpline, Dribbble, LayoutDashboard } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 function MobileNavbar() {
@@ -15,7 +15,7 @@ function MobileNavbar() {
 
                     <NavLink to="/" className={({ isActive }) => isActive ? isActiveNavLinkClassName : isNotActiveNavLinkClassName }>
                         {({ isActive }) => (
-                            <Home strokeWidth={1.25} className={isActive ? isActiveIconClassName : isNotActiveIconClassName} />
+                            <LayoutDashboard strokeWidth={1.25} className={isActive ? isActiveIconClassName : isNotActiveIconClassName} />
                         )}
                     </NavLink>
 

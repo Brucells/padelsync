@@ -1,10 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Diameter, DollarSign, Dribbble, Timer, TrendingDown, TrendingUp, Trophy } from "lucide-react";
+import { Diameter, DollarSign, Dribbble, LayoutDashboard, Timer, TrendingDown, TrendingUp, Trophy } from "lucide-react";
 
 function Dashboard() {
     return (
         <>
+            <div className="flex flex-row items-center mb-2">
+                <LayoutDashboard strokeWidth={2} className="ml-2 mr-1 h-5" />
+                <h1 className="text-lg font-semibold md:text-2xl">Dashboard</h1>
+            </div>
+
             <div className=" ">
 
                 <Card className="bg-gradient-to-r from-accent mb-2">
