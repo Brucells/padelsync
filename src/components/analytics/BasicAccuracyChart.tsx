@@ -47,8 +47,8 @@ export function BasicAccuracyChart() {
                 >
                     <RadarChart data={chartData}>
                         <ChartTooltip
-                            cursor={false}
-                            content={<ChartTooltipContent hideLabel />}
+                            cursor={true}
+                            content={<ChartTooltipContent />}
                         />
                         <PolarGrid className="fill-[--color-desktop] opacity-5" />
                         <PolarAngleAxis dataKey="shot" />

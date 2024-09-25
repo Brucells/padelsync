@@ -18,7 +18,7 @@ export const description = "A radar chart with a grid filled"
 
 const chartData = [
     { shot: "Vibora", desktop: 22 },
-    { shot: "Smash", desktop: 48 },
+    { shot: "Smash", desktop: 25 },
     { shot: "Chiquita", desktop: 17 },
     { shot: "Bandeja", desktop: 12 },
     { shot: "All", desktop: 24 },
@@ -46,8 +46,8 @@ export function SpecialAccuracyChart() {
                 >
                     <RadarChart data={chartData}>
                         <ChartTooltip
-                            cursor={false}
-                            content={<ChartTooltipContent hideLabel />}
+                            cursor={true}
+                            content={<ChartTooltipContent />}
                         />
                         <PolarGrid gridType="circle" className="" />
                         <PolarAngleAxis dataKey="shot" />
@@ -55,10 +55,6 @@ export function SpecialAccuracyChart() {
                             dataKey="desktop"
                             fill="var(--color-desktop)"
                             fillOpacity={0.6}
-                            dot={{
-                                r: 4,
-                                fillOpacity: 1,
-                            }}
                         />
                     </RadarChart>
                 </ChartContainer>
