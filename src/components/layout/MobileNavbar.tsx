@@ -1,4 +1,4 @@
-import { Cctv, ChartArea, ChartBar, Diameter, Dribbble, Home, LayoutDashboard } from "lucide-react";
+import { Cctv, ChartArea, ChartBar, Dribbble, Home } from "lucide-react";
 
 function MobileNavbar() {
     return (
