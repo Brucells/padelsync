@@ -50,12 +50,12 @@ export function BasicAccuracyChart() {
                             cursor={true}
                             content={<ChartTooltipContent />}
                         />
-                        <PolarGrid className="fill-[--color-desktop] opacity-5" />
+                        <PolarGrid className="" />
                         <PolarAngleAxis dataKey="shot" />
                         <Radar
                             dataKey="desktop"
                             fill="var(--color-desktop)"
-                            fillOpacity={0.7}
+                            fillOpacity={0.6}
                         />
                     </RadarChart>
                 </ChartContainer>
