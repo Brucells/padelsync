@@ -19,6 +19,7 @@ export default defineConfig({
       short_name: 'PadelSync',
       description: 'Your padel analytics app',
       theme_color: '#ffffff',
+      background_color: '#ffffff'
     },
 
     workbox: {
