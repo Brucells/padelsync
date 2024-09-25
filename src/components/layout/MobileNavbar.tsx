@@ -3,7 +3,7 @@ import { Cctv, ChartArea, ChartBar, Dribbble, Home } from "lucide-react";
 function MobileNavbar() {
     return (
         <div className="w-full">
-            <div className="block py-1 md:hidden">
+            <div className="block py-3 md:hidden">
                 <div className="grid place-content-center grid-cols-5">
                     <div>
                         <a
