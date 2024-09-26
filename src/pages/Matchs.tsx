@@ -7,7 +7,7 @@ function Matchs() {
     return (
         <>
             
-            <div className="flex flex-row items-center justify-between mb-2 sticky top-0 bg-white z-10 opacity-65">
+            <div className="flex flex-row items-center justify-between mb-2 sticky top-0 bg-white z-10 opacity-90">
                 <div className="flex flex-row items-center">
                     <Dribbble strokeWidth={2} className="ml-2 mr-1 h-5" />
                     <h1 className="text-lg font-semibold md:text-2xl">Matchs</h1>
