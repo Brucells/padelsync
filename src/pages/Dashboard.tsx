@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Diameter, DollarSign, Dribbble, Euro, LayoutDashboard, Plus, Timer, TrendingDown, TrendingUp, Trophy } from "lucide-react";
+import { Diameter, DollarSign, Dribbble, LayoutDashboard, Plus, Timer, TrendingDown, TrendingUp, Trophy } from "lucide-react";
 
 function Dashboard() {
     return (
