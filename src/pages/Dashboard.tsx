@@ -1,11 +1,12 @@
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Diameter, DollarSign, Dribbble, LayoutDashboard, Timer, TrendingDown, TrendingUp, Trophy } from "lucide-react";
+import { Diameter, DollarSign, Dribbble, Euro, LayoutDashboard, Plus, Timer, TrendingDown, TrendingUp, Trophy } from "lucide-react";
 
 function Dashboard() {
     return (
         <>
-            <div className="flex flex-row items-center mb-2">
+            <div className="flex flex-row items-center my-2">
                 <LayoutDashboard strokeWidth={2} className="ml-2 mr-1 h-5" />
                 <h1 className="text-lg font-semibold md:text-2xl">Dashboard</h1>
             </div>
@@ -91,40 +92,53 @@ function Dashboard() {
                     </CardContent>
                 </Card>
 
-                <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-100">
-                    <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                        <CardTitle className="text-sm font-medium flex flex-row items-center">
-                            Dépenses du mois
-                            <TrendingUp className="ml-2 h-4 w-4 text-destructive" />
-                        </CardTitle>
-                        <DollarSign strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
 
-                    </CardHeader>
-                    <CardContent>
-                        <div className="text-2xl font-bold">46.89€</div>
-                        <p className="text-xs text-muted-foreground">
-                            +20.1% par rapport au mois dernier
-                        </p>
-                    </CardContent>
-                </Card>
-
-
-                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
-                    <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                        <CardTitle className="text-sm font-medium flex flex-row items-center">
-                            Dépenses totales
-
-                        </CardTitle>
-                        <DollarSign strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
-
-                    </CardHeader>
-                    <CardContent>
-                        <div className="text-2xl font-bold">228.61€</div>
-
-                    </CardContent>
-                </Card>
 
             </div>
+
+            <div className="flex flex-row items-center justify-between mb-2">
+                <div className="flex flex-row items-center">
+                    <DollarSign strokeWidth={2} className="ml-2 mr-1 h-5" />
+                    <h1 className="text-lg font-semibold md:text-2xl">Budget</h1>
+                </div>
+                <div className="">
+                    <Button variant={'ghost'} className="">
+                        <Plus strokeWidth={2} className="h-5" />
+                    </Button>
+                </div>
+            </div>
+
+            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-100">
+                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                    <CardTitle className="text-sm font-medium flex flex-row items-center">
+                        Dépenses du mois
+                        <TrendingUp className="ml-2 h-4 w-4 text-destructive" />
+                    </CardTitle>
+                    <DollarSign strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
+
+                </CardHeader>
+                <CardContent>
+                    <div className="text-2xl font-bold">46.89€</div>
+                    <p className="text-xs text-muted-foreground">
+                        +20.1% par rapport au mois dernier
+                    </p>
+                </CardContent>
+            </Card>
+
+            <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
+                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                    <CardTitle className="text-sm font-medium flex flex-row items-center">
+                        Dépenses totales
+
+                    </CardTitle>
+                    <DollarSign strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
+
+                </CardHeader>
+                <CardContent>
+                    <div className="text-2xl font-bold">228.61€</div>
+
+                </CardContent>
+            </Card>
         </>
     );
 }
