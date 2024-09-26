@@ -59,7 +59,7 @@ function Dashboard() {
                     </CardContent>
                 </Card>
 
-                <Card className="bg-gradient-to-r from-accent to-green-50 mb-2 border-r-8 border-green-100">
+                <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-100">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium flex flex-row items-center">
                             PadelSync Elo
@@ -75,7 +75,7 @@ function Dashboard() {
                     </CardContent>
                 </Card>
 
-                <Card className="bg-gradient-to-r from-accent to-red-50 mb-2 border-r-8 border-red-100">
+                <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-100">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium flex flex-row items-center">
                             Winrate
@@ -91,7 +91,7 @@ function Dashboard() {
                     </CardContent>
                 </Card>
 
-                <Card className="bg-gradient-to-r from-accent to-red-50 mb-2 border-r-8 border-red-100">
+                <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-100">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium flex flex-row items-center">
                             Dépenses du mois
