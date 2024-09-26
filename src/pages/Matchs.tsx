@@ -6,7 +6,8 @@ import { Award, Calendar, ChevronsRight, Clock, Download, Dribbble, Plus, Star, 
 function Matchs() {
     return (
         <>
-            <div className="flex flex-row items-center justify-between mb-2">
+            
+            <div className="flex flex-row items-center justify-between mb-2 sticky top-0 bg-white">
                 <div className="flex flex-row items-center">
                     <Dribbble strokeWidth={2} className="ml-2 mr-1 h-5" />
                     <h1 className="text-lg font-semibold md:text-2xl">Matchs</h1>
@@ -19,7 +20,7 @@ function Matchs() {
             </div>
 
             <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
                         <span className="text-xs font-medium text-green-500">Victoire</span>
@@ -95,7 +96,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
                         <span className="text-xs font-medium text-green-500">Victoire</span>
@@ -170,7 +171,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
                         <span className="text-xs font-medium text-green-500">Victoire</span>
@@ -245,7 +246,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-red-500" />
                         <span className="text-xs font-medium text-red-500">Défaite</span>
@@ -320,7 +321,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
                         <span className="text-xs font-medium text-green-500">Victoire</span>
@@ -395,7 +396,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-red-500" />
                         <span className="text-xs font-medium text-red-500">Défaite</span>
@@ -470,7 +471,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-red-500" />
                         <span className="text-xs font-medium text-red-500">Défaite</span>
@@ -545,7 +546,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
                         <span className="text-xs font-medium text-green-500">Victoire</span>
@@ -620,7 +621,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-red-500" />
                         <span className="text-xs font-medium text-red-500">Défaite</span>
@@ -696,7 +697,7 @@ function Matchs() {
 
 
             <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
-                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
+                <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
                         <span className="text-xs font-medium text-green-500">Victoire</span>

@@ -34,7 +34,7 @@ const chartConfig = {
 
 export function BasicAccuracyChart() {
     return (
-        <Card className="bg-gradient-to-b from-accent mb-3">
+        <Card className="bg-gradient-to-b from-accent mb-3 border-l-8">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium">Précision des coups de base</CardTitle>
                 <Crosshair strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />

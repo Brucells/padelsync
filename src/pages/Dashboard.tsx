@@ -12,7 +12,7 @@ function Dashboard() {
 
             <div className=" ">
 
-                <Card className="bg-gradient-to-r from-accent mb-2">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Matchs</CardTitle>
                         <Dribbble strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
@@ -22,7 +22,7 @@ function Dashboard() {
                     </CardContent>
                 </Card>
 
-                <Card className="bg-gradient-to-r from-accent mb-2">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Temps de jeu</CardTitle>
                         <Timer strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
@@ -59,7 +59,7 @@ function Dashboard() {
                     </CardContent>
                 </Card>
 
-                <Card className="bg-gradient-to-r from-accent to-green-50 mb-2">
+                <Card className="bg-gradient-to-r from-accent to-green-50 mb-2 border-r-8 border-green-100">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium flex flex-row items-center">
                             PadelSync Elo
@@ -75,7 +75,7 @@ function Dashboard() {
                     </CardContent>
                 </Card>
 
-                <Card className="bg-gradient-to-r from-accent to-red-50 mb-2">
+                <Card className="bg-gradient-to-r from-accent to-red-50 mb-2 border-r-8 border-red-100">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium flex flex-row items-center">
                             Winrate
@@ -91,7 +91,7 @@ function Dashboard() {
                     </CardContent>
                 </Card>
 
-                <Card className="bg-gradient-to-r from-accent to-red-50 mb-2">
+                <Card className="bg-gradient-to-r from-accent to-red-50 mb-2 border-r-8 border-red-100">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium flex flex-row items-center">
                             Dépenses du mois
@@ -109,7 +109,7 @@ function Dashboard() {
                 </Card>
 
 
-                <Card className="bg-gradient-to-r from-accent mb-2">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium flex flex-row items-center">
                             Dépenses totales
