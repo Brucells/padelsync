@@ -19,7 +19,7 @@ function Matchs() {
                 </div>
             </div>
 
-            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
+            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
@@ -95,7 +95,7 @@ function Matchs() {
 
 
 
-            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
+            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
@@ -170,7 +170,7 @@ function Matchs() {
             </Card>
 
 
-            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
+            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
@@ -245,7 +245,7 @@ function Matchs() {
             </Card>
 
 
-            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-200">
+            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-red-500" />
@@ -320,7 +320,7 @@ function Matchs() {
             </Card>
 
 
-            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
+            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
@@ -395,7 +395,7 @@ function Matchs() {
             </Card>
 
 
-            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-200">
+            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-red-500" />
@@ -470,7 +470,7 @@ function Matchs() {
             </Card>
 
 
-            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-200">
+            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-red-500" />
@@ -545,7 +545,7 @@ function Matchs() {
             </Card>
 
 
-            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
+            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />
@@ -620,7 +620,7 @@ function Matchs() {
             </Card>
 
 
-            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-200">
+            <Card className="bg-gradient-to-r from-red-50 mb-2 border-l-8 border-l-red-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-red-500" />
@@ -696,7 +696,7 @@ function Matchs() {
 
 
 
-            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
+            <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-100">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1">
                     <div className="flex items-center">
                         <Trophy strokeWidth={0.8} className="h-3 text-green-500" />

@@ -1,4 +1,4 @@
-import { Diameter, Settings2 } from "lucide-react";
+import { Bell, Diameter } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
                     <Diameter strokeWidth={1.25} className="h-4 w-4 mr-1" />
                     <h2 className="ml-auto">PadelSync</h2>
                 </div>
-                <Settings2 strokeWidth={1.25} className="ml-auto h-5 w-5" />
+                <Bell strokeWidth={1.25} className="ml-auto h-5 w-5" />
 
             </div>
         </div>
