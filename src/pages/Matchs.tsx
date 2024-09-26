@@ -1,13 +1,21 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Award, Calendar, ChevronsRight, Clock, Dribbble, Star, Trophy } from "lucide-react";
+import { Award, Calendar, ChevronsRight, Clock, Download, Dribbble, Plus, Star, Trophy } from "lucide-react";
 
 function Matchs() {
     return (
         <>
-            <div className="flex flex-row items-center mb-2">
-                <Dribbble strokeWidth={2} className="ml-2 mr-1 h-5" />
-                <h1 className="text-lg font-semibold md:text-2xl">Matchs</h1>
+            <div className="flex flex-row items-center justify-between mb-2">
+                <div className="flex flex-row items-center">
+                    <Dribbble strokeWidth={2} className="ml-2 mr-1 h-5" />
+                    <h1 className="text-lg font-semibold md:text-2xl">Matchs</h1>
+                </div>
+                <div className="">
+                    <Button variant={'ghost'} className="">
+                        <Plus strokeWidth={2} className="h-5" /> 
+                    </Button>
+                </div>
             </div>
 
             <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
@@ -85,7 +93,7 @@ function Matchs() {
             </Card>
 
 
-            
+
             <Card className="bg-gradient-to-r from-green-50 mb-2 border-l-8 border-l-green-200">
                 <div className="flex flex-row items-center justify-between pl-2 pr-1 pt-1 border-b">
                     <div className="flex items-center">
@@ -760,6 +768,12 @@ function Matchs() {
                     </div>
                 </div>
             </Card>
+
+            <div className="flex justify-center">
+                <Button variant={'ghost'} className="my-3">
+                    <Download className="mr-2 h-4 w-4" /> Charger plus
+                </Button>
+            </div>
 
             {/* <div className="flex flex-row items-center">
                 Dates
