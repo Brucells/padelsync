@@ -17,11 +17,12 @@ import {
 export const description = "A radar chart with a grid filled"
 
 const chartData = [
-    { shot: "Vibora", desktop: 22 },
-    { shot: "Smash", desktop: 25 },
-    { shot: "Chiquita", desktop: 17 },
-    { shot: "Bandeja", desktop: 12 },
-    { shot: "All", desktop: 24 },
+    { shot: "Service", desktop: 89 },
+    { shot: "All", desktop: 71 },
+    { shot: "Volley", desktop: 48 },
+    { shot: "Lob", desktop: 66 },
+    { shot: "Revers", desktop: 72 },
+    { shot: "Droit", desktop: 81 },
 ]
 
 const chartConfig = {
@@ -31,11 +32,11 @@ const chartConfig = {
     },
 } satisfies ChartConfig
 
-export function SpecialAccuracyChart() {
+export function BasicAccuracyChart() {
     return (
-        <Card className="bg-gradient-to-r from-accent mb-3 border-l-8">
+        <Card className="bg-gradient-to-r from-accent mb-3 border-l-4">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">Précision des coups spéciaux</CardTitle>
+                <CardTitle className="text-sm font-medium">Précision des coups de base</CardTitle>
                 <Crosshair strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
 
@@ -49,7 +50,7 @@ export function SpecialAccuracyChart() {
                             cursor={true}
                             content={<ChartTooltipContent />}
                         />
-                        <PolarGrid gridType="circle" className="" />
+                        <PolarGrid className="" />
                         <PolarAngleAxis dataKey="shot" />
                         <Radar
                             dataKey="desktop"
