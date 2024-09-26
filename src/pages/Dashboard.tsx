@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Award, Brain, Clover, Crosshair, Diameter, DollarSign, Dribbble, LayoutDashboard, Plus, Shield, Star, Timer, TrendingDown, TrendingUp, Trophy } from "lucide-react";
+import { Award, Brain, Clover, Crosshair, Diameter, DollarSign, Dribbble, HandPlatter, LayoutDashboard, Plus, ShieldHalf, Star, Syringe, Timer, TrendingDown, TrendingUp, Trophy } from "lucide-react";
 
 function Dashboard() {
     return (
@@ -121,11 +121,29 @@ function Dashboard() {
                 </Card>
                 <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                        <CardTitle className="text-sm font-medium">Serveur</CardTitle>
+                        <HandPlatter strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
+                    </CardHeader>
+                    <CardContent>
+                        <div className="text-2xl font-bold">9</div>
+                    </CardContent>
+                </Card>
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
+                    <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                        <CardTitle className="text-sm font-medium">Défenseur</CardTitle>
+                        <ShieldHalf strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
+                    </CardHeader>
+                    <CardContent>
+                        <div className="text-2xl font-bold">12</div>
+                    </CardContent>
+                </Card>
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
+                    <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Sniper</CardTitle>
                         <Crosshair strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold">1</div>
+                        <div className="text-2xl font-bold">3</div>
                     </CardContent>
                 </Card>
                 <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
@@ -139,20 +157,20 @@ function Dashboard() {
                 </Card>
                 <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                        <CardTitle className="text-sm font-medium">Technicien</CardTitle>
-                        <Brain strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
+                        <CardTitle className="text-sm font-medium">Spécialiste</CardTitle>
+                        <Syringe strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold">4</div>
+                        <div className="text-2xl font-bold">2</div>
                     </CardContent>
                 </Card>
                 <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                        <CardTitle className="text-sm font-medium">Défenseur</CardTitle>
-                        <Shield strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
+                        <CardTitle className="text-sm font-medium">Stratège</CardTitle>
+                        <Brain strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold">12</div>
+                        <div className="text-2xl font-bold">4</div>
                     </CardContent>
                 </Card>
             </div>
