@@ -101,7 +101,7 @@ function Dashboard() {
             </div>
 
             <div className="grid grid-cols-2 gap-x-2">
-                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Mvp</CardTitle>
                         <Star strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
@@ -110,7 +110,7 @@ function Dashboard() {
                         <div className="text-2xl font-bold">5</div>
                     </CardContent>
                 </Card>
-                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Ace</CardTitle>
                         <Award strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
@@ -119,7 +119,7 @@ function Dashboard() {
                         <div className="text-2xl font-bold">3</div>
                     </CardContent>
                 </Card>
-                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Sniper</CardTitle>
                         <Crosshair strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
@@ -128,7 +128,7 @@ function Dashboard() {
                         <div className="text-2xl font-bold">1</div>
                     </CardContent>
                 </Card>
-                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Chanceux</CardTitle>
                         <Clover strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
@@ -137,7 +137,7 @@ function Dashboard() {
                         <div className="text-2xl font-bold">2</div>
                     </CardContent>
                 </Card>
-                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Technicien</CardTitle>
                         <Brain strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
@@ -146,7 +146,7 @@ function Dashboard() {
                         <div className="text-2xl font-bold">4</div>
                     </CardContent>
                 </Card>
-                <Card className="bg-gradient-to-r from-accent mb-2 border-l-8">
+                <Card className="bg-gradient-to-r from-accent mb-2 border-l-4">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm font-medium">Défenseur</CardTitle>
                         <Shield strokeWidth={1.25} className="h-4 w-4 text-muted-foreground" />
